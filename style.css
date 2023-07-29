@@ -18,9 +18,13 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
+}
+
+p {
+    line-height: 1.4em;
 }
 
 /*-----*/
@@ -35,7 +39,7 @@ header, section, footer {
 
 /* header */
 header {
-    padding: 0.3em 10%;
+    padding: 0.3em 15%;
     align-items: center;
     justify-content: space-between;
 }
@@ -63,13 +67,17 @@ header nav ul {
 /* hero */
 
 .hero {
-    padding: 10em 10%;
+    padding: 10em 15%;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.hero .secondary_text {
+    margin: 1em 0;
 }
 
 .cta {
@@ -80,13 +88,36 @@ header nav ul {
     color: #F9FAF8;
 }
 
-/* random information */
+/* information */
+
+.information {
+    padding: 10em 18%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 1em;
+    color: #1F2937;
+}
+
+.information_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.information_items li {
+    max-width: 9em;
+}
 
 
 /* quote section */
 
 .quote {
-    padding: 5em 18%;
+    padding: 5em 22%;
     flex-direction: column;
     background-color: #E5E7EB;
 }
@@ -104,4 +135,87 @@ header nav ul {
     font-size: 24px;
 }
 
+/* cta section */
+.cta_section {
+    padding: 5em 15%;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8
+}
+
+.cta_box {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2.5em 8em;
+    border-radius: 0.3em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cta_button {
+    background-color: #3882F6;
+    padding: 0.3em 1.4em;
+    border: 1.5px solid #F9FAF8;
+    border-radius: 0.3em;
+}
+
 /* footer */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 1em 0;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 991px) {
+    
+    .hero, .information, .quote, .cta_section {
+        padding: 5em 15%;
+    }
+
+    .header {
+        flex-direction: column;
+        padding: 1em 15%;
+    }
+
+    header nav ul {
+        display: flex;
+    }
+
+    header nav ul li {
+        padding: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 9em;
+    }
+    
+    .hero {
+        flex-direction: column-reverse;
+    }
+    
+    .information_items {
+        gap: 3em;
+    }
+
+    .quote p {
+        font-size: 28px;
+    }
+    
+    .cta_box {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2.5em 3em;
+    }
+
+    .cta_box p {
+        margin: 1em 0;
+    }
+
+
+}
