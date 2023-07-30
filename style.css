@@ -1,3 +1,4 @@
+Ro_recipes
 /* resets */
 
 * {
@@ -105,3 +106,124 @@ header nav ul {
 }
 
 /* footer */
+
+header {
+	background: black;
+}
+.header-container {
+	height: 50px;
+	display: flex;
+	align-item: stretch;
+	justify-content: evenly;
+	width: 1100px;
+	margin: auto;
+}
+.logo {
+	width: 50%;
+	color:white;
+}
+nav {
+	width:50%;
+	display:flex;
+	justify-content:flex-end;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0; 
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+main {
+	background:black;
+}
+.main-container {
+  display: flex; 
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  width: 1100px;
+  margin:auto;
+   align-item:center;
+}
+
+.main-container > * {
+  padding: 50px 0;
+}
+.aside {
+  flex: 1 0 0;
+}
+
+.aside-1 {
+  color: white;
+  flex-grow:6;
+  align-self:center;
+}
+
+.aside-2 {
+  flex-grow:4;
+  display:flex;
+}
+.image {
+  flex: 1 1 100%;
+}
+.info {
+	display:flex;
+	justify-content: center;
+	background:yellow;
+	min-height:200px;
+}
+.info article{
+	width:200px;
+}
+.info1 {
+	width: 700px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;	
+}
+.info1 article{
+	display: flex;
+	background:grey;
+	min-height:100px;
+}
+.footer-container {
+	height: 50px;
+	display: flex;
+	background:pink;
+	margin: auto;
+}
+main
