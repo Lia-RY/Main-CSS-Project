@@ -58,40 +58,40 @@ nav {
     border-bottom: none;
   }
 }
-
+main {
+	background:black;
+}
 .main-container {
   display: flex; 
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center; 
+  text-align: center;
+  width: 1100px;
+  margin:auto;
+   align-item:center;
 }
 
 .main-container > * {
-  padding: 50px;
-  flex: 1 100%;
+  padding: 50px 0;
+}
+.aside {
+  flex: 1 0 0;
 }
 
-
 .aside-1 {
-  background-color: black;
   color: white;
+  flex-grow:6;
+  align-self:center;
 }
 
 .aside-2 {
-  background: black;
-}
-
-@media all and (min-width: 600px) {
-  .aside { flex: 1 0 0; }
-}
-
-@media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
+  flex-grow:4;
+  display:flex;
 }
 .image {
-	
+  flex: 1 1 100%;
+  
+ 
+  
+
 }
