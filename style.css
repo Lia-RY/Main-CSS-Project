@@ -90,8 +90,30 @@ main {
 }
 .image {
   flex: 1 1 100%;
-  
- 
-  
-
+}
+.info {
+	display:flex;
+	justify-content: center;
+	background:yellow;
+	min-height:200px;
+}
+.info article{
+	width:200px;
+}
+.info1 {
+	width: 700px;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;	
+}
+.info1 article{
+	display: flex;
+	background:grey;
+	min-height:100px;
+}
+.footer-container {
+	height: 50px;
+	display: flex;
+	background:pink;
+	margin: auto;
 }
