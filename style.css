@@ -58,6 +58,10 @@ header nav ul {
     padding: 0 0.8em;
 }
 
+.join_us {
+    padding: 0 0.8em;
+}
+
 .secondary_text {
     font-size: 18px;
     color: #E5E7EB;
@@ -67,7 +71,9 @@ header nav ul {
 /* hero */
 
 .hero {
-    padding: 10em 15%;
+    padding: 5em 15%;
+    align-items: center;
+    gap: 3em;
 }
 
 .hero h1 {

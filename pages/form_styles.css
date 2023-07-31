@@ -1,0 +1,44 @@
+.hero_form_container {
+    width: 120%;
+}
+
+.hero ul li {
+    color: #F9FAF8;
+    margin: 1em 0;
+}
+
+form {
+    background-color: #F9FAF8;
+    padding: 2em;
+    border-radius: 0.3em;
+}
+
+form a {
+    color: #3882F6;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 0.3em 0;
+}
+
+label {
+    padding: 0.7em 0;
+}
+
+input {
+    padding: 0.7em;
+    border-radius: 0.3em;
+    border: 1px solid #3882F6;
+}
+
+.fieldset_checkbox {
+    flex-direction: row;
+}
+
+input[type=submit], input[type=checkbox] {
+    cursor: pointer;
+}
+
