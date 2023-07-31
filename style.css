@@ -113,7 +113,6 @@ header nav ul {
     max-width: 9em;
 }
 
-
 /* quote section */
 
 .quote {
@@ -134,6 +133,8 @@ header nav ul {
     font-weight: bolder;
     font-size: 24px;
 }
+
+
 
 /* cta section */
 .cta_section {
@@ -219,3 +220,4 @@ header nav ul {
 
 
 }
+
