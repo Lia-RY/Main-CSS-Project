@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header {
+    background-color: rgb(151, 241, 234);
+    color: rgb(3, 35, 37);
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(196, 215, 216);
+}
+h1, h2, h3 {
+    margin-bottom: 0.5rem;
+}
+h2 {
+    color: #333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 0.5rem;
+}
+.ingredient-list {
+    margin-left: 1rem;
+}
