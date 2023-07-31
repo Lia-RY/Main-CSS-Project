@@ -59,10 +59,9 @@ color:white
     padding: 5px;
     text-align: center;
 }
- .item button {
+ .item a:hover {
      padding: 5px 30px;
-     border: none;
-     outline: none;
+     border:1px solid red;
      background-color:rgb(130, 238, 211);
      color: white;
      cursor: pointer;
@@ -71,8 +70,4 @@ color:white
      display: block;
      margin: 0 auto;
      transition: 0.3s all;
- }
-
- .item button:hover {
-transform: scale(1.08);
  }
