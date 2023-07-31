@@ -199,6 +199,10 @@ main {
 }
 .image {
   flex: 1 1 100%;
+  
+ 
+  
+
 }
 .info {
 	display:flex;
@@ -226,4 +230,3 @@ main {
 	background:pink;
 	margin: auto;
 }
-main
