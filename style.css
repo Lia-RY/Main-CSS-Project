@@ -52,6 +52,7 @@ header {
 
 header nav ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav_link {
@@ -111,14 +112,15 @@ figure{
     font-size: larger;
 }
 
-.dishes  img{
+.dishes img{
     width: 20vw;
     border-radius: 2rem;
 }
 
-.dishes{
+.dishes {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .dishes img:hover{
@@ -190,7 +192,7 @@ figure{
 @media only screen and (max-width: 991px) {
     
     .hero, .information, .quote, .cta_section {
-        padding: 5em 15%;
+        padding: 3em 15%;
     }
 
     .header {
@@ -200,6 +202,9 @@ figure{
 
     header nav ul {
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0.5em;
     }
 
     header nav ul li {
@@ -211,11 +216,25 @@ figure{
     }
     
     .hero {
-        flex-direction: column-reverse;
+        flex-direction: column;
+
     }
     
     .information_items {
         gap: 3em;
+    }
+
+    h2 {
+        padding: 2em 0 0 0;
+    }
+
+    .dishes{
+        flex-direction: column;
+    }
+
+    .dishes img{
+        width: 50vw;
+        border-radius: 2rem;
     }
 
     .quote p {
