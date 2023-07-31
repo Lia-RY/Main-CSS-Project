@@ -16,32 +16,7 @@ body{
     text-align: center;
 }
 
-figure{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    align-items: center;
-    font-weight: 500;
-    color: #F9FAF8;
-    font-size: larger;
-}
 
-.dishes  img{
-    width: 20vw;
-    border-radius: 2rem;
-}
-
-.dishes{
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-}
-
-.dishes img:hover{
-    opacity: 0.5;
-    cursor: pointer;
-    transform: scale(97%);
-}
 
 .details, .ingredients, .instructions{
     display: flex;

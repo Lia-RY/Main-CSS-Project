@@ -88,29 +88,36 @@ header nav ul {
     color: #F9FAF8;
 }
 
-/* information */
+/* dishes */
 
-.information {
-    padding: 10em 18%;
-    flex-direction: column;
+h2{
+    margin: 1rem;
     text-align: center;
 }
 
-.information h2 {
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 1em;
-    color: #1F2937;
-}
-
-.information_items {
+figure{
+    margin: 1rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: larger;
 }
 
-.information_items li {
-    max-width: 9em;
+.dishes  img{
+    width: 20vw;
+    border-radius: 2rem;
+}
+
+.dishes{
+    display: flex;
+    justify-content: center;
+}
+
+.dishes img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transform: scale(97%);
 }
 
 /* quote section */
@@ -217,7 +224,5 @@ header nav ul {
     .cta_box p {
         margin: 1em 0;
     }
-
-
 }
 
