@@ -8,11 +8,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* overflow: hidden; */
+}
+
+.az {
+    background-image: url(/assets/images/plov.jpg);
+}
+
+.ro {
+    background-image: url(/assets/images/polenta.jpg);
+}
+
+.sp {
+    background-image: url(/assets/images/crema.jpg);
 }
 
 .hero_img {
-    background-image: url(/assets/images/plov.jpg);
     background-size: cover;
 }
 
@@ -24,7 +34,9 @@ main {
     background-color: rgba(0,0,0,0.5);
 }
 
-
+.hero_recipe span {
+    font-size: 23px;
+}
 
 .details, .ingredients, .instructions{
     display: flex;
@@ -44,6 +56,7 @@ main {
     border-radius: 1rem;
     padding: 1.5rem;
     margin-top: -3rem;
+    width: 200px;
 }
 
 .recipe_info {
@@ -55,6 +68,10 @@ main {
     width: 40%;
     display: flex;
     gap: 0.5rem;
+}
+
+ol li {
+    padding: 0.4em 0;
 }
 
 .instructions {
