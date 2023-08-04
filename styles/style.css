@@ -87,6 +87,10 @@ header nav ul {
     color: #F9FAF8;
 }
 
+.hero img {
+    border-radius: 2em;
+}
+
 .hero .secondary_text {
     margin: 1em 0;
 }
