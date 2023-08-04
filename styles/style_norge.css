@@ -35,23 +35,24 @@ header, section, footer {
 
 /* header */
 header {
-  padding: 0.3em 10%;
-  align-items: center;
-  justify-content: space-between;
+    padding: 0.3em 15%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header_logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  font-weight: 600;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
 }
 
 header nav ul {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nav_link {
-  padding: 0 0.8em;
+    padding: 0 0.8em;
 }
 
 .secondary_text {
