@@ -142,3 +142,48 @@ footer {
     max-height: 400px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  header.hero h1 {
+    font-size: 28px;
+  }
+
+  .recipe-details h2 {
+    font-size: 20px;
+  }
+
+  .recipe-details h3 {
+    font-size: 18px;
+  }
+
+  .recipe-details p,
+  .recipe-details li {
+    font-size: 16px;
+  }
+  
+  nav {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  nav li {
+    margin-right: 0;
+  }
+
+  header.hero {
+    /* Adjust hero styles for mobile devices */
+    padding: 20px;
+  }
+
+  .recipe-details,
+  .recipe-image {
+    /* Adjust recipe section styles for mobile devices */
+    flex: 100%;
+  }
+
+  .recipe-image img {
+    max-height: 300px;
+  }
+}
