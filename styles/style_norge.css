@@ -235,8 +235,9 @@ margin-bottom:50px;
 display: flex;
 background:green;
 min-height:100px;
-padding-top:10px;
+padding:30px;
 text-align:left;
+border-radius:30px;
 }
 
 .footer-container {
