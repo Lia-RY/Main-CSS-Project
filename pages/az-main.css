@@ -1,67 +1,31 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
 
-
-nav {
-  position: absolute;
-  border-radius: 28px;
-  top: 0;
-  right: 0;
-  background-color:#1F2937;
-  padding: 10px;
-  justify-content: space-between;
-  
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  color: #E5E7EB;
+.secondary_text {
   font-size: 18px;
-  text-decoration: none;
-  display: inline;
-  text-align: center;
-
+  color: #E5E7EB;
+  font-weight: 300;
 }
 
-nav a:hover {
-  background-color: #E5E7EB;
-  color: black;
-
-}
-
-header.hero {
+.az-hero {
   text-align: center;
   background-image: url(../assets/images/spices.jpeg);
   background-size: cover;
   width: 100%;
   height: 30vw;
   padding: 40px;
-  
+  display: block;
 }
 
-.hero h1 {
+.az-hero h1 {
   color: #F9FAF8;
   font-size: 48px;
   font-weight:600;
+  margin-top: 140px;
 }
 
-.hero p {
+.az-hero p {
   font-size: 24px;
   color: #F9FAF8;
 }
@@ -116,20 +80,7 @@ footer {
 
 
 @media screen and (min-width: 769px) {
-  nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #333;
-    padding: 10px;
-  }
-
-  nav li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  header.hero {
+  .az-hero {
     padding: 40px;
   }
 
@@ -144,7 +95,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header.hero h1 {
+  .az-hero h1 {
     font-size: 28px;
   }
 
@@ -160,19 +111,8 @@ footer {
   .recipe-details li {
     font-size: 16px;
   }
-  
-  nav {
-    position: static;
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    padding: 10px 0;
-  }
-  nav li {
-    margin-right: 0;
-  }
 
-  header.hero {
+  .az-hero {
     /* Adjust hero styles for mobile devices */
     padding: 20px;
   }
