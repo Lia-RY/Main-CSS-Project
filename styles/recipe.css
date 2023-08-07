@@ -11,15 +11,15 @@ main {
 }
 
 .az {
-    background-image: url(/assets/images/plov.jpg);
+    background-image: url(../assets/images/plov.jpg);
 }
 
 .ro {
-    background-image: url(/assets/images/polenta.jpg);
+    background-image: url(../assets/images/polenta.jpg);
 }
 
 .sp {
-    background-image: url(/assets/images/crema.jpg);
+    background-image: url(../assets/images/crema.jpg);
 }
 
 .hero_img {
